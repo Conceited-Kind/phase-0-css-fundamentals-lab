@@ -3,3 +3,49 @@ body {
   height: 100%;
   margin: 0;
 }
+
+header {
+  text-align: center;
+}
+
+.center-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200vh; /* Adjust as needed */
+}
+
+.center-image-container img {
+  max-width: 100%; /* Optional: to ensure the image scales properly */
+}
+
+nav a {
+  padding: 10px;
+  background-color: grey; /* Change to your preferred color */
+  display: inline-block;
+}
+
+nav {
+  text-align: center;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 0.8em;
+}
+
+#featured-property p {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px 0;
+}
+
+#details div {
+  float: left;
+  width: 25%;
+  text-align: center;
+  background-color: red;
+}
+
+
